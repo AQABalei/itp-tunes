@@ -18,6 +18,9 @@
 				<li class="nav-item">
 					<a href="/logout" class="nav-link">Logout</a>
 				</li>
+				<li class="nav-item">
+					<a href="/settings" class="nav-link">Settings</a>
+				</li>
 			@else
 				<li class="nav-item">
 					<a href="/login" class="nav-link">Login</a>
