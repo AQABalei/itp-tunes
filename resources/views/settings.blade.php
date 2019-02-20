@@ -8,7 +8,7 @@
   <form method="post">
     @csrf
     <div class="form-group">
-      <input type="checkbox" name="OnorOff" value="on"> maintenance on
+      <input type="checkbox" name="OnorOff" value="on" {{ $mStatus == "on" ? "checked" : ""}}> maintenance on
     </div>
     <input type="submit" value="toggle" class="btn btn-primary">
   </form>
